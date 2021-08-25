@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	body{text-align: center;}
+	#random_area{
+		width: 500px;
+		text-align: center;
+		margin: 0 auto;
+	}
+</style>
+</head>
+<body>
+	<!-- ex11write.jsp로 입력한 숫자를 전송하시오. -->
+	<h1>랜덤게임</h1>
+	<form action="ex11_write.jsp">
+		<fieldset id="random_area">
+			<legend>생성할 숫자입력</legend>
+			<div>
+				<input type="number" name="num">
+			</div>
+			<div>
+				<input type="submit" value="시작">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
